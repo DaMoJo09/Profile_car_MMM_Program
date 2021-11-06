@@ -1057,6 +1057,8 @@ form p label {
             	</li>
             </ul>
         </section><!-- /Portfolio -->
+
+        
         <section id="contact">
         	<div id="map"><iframe src="https://www.google.com/maps/place/131+Camellia+Ct,+San+Bruno,+CA+94066,+USA/@37.6332118,-122.4509693,17z/data=!3m1!4b1!4m5!3m4!1s0x808f7a20c2c37f31:0x7a46b2c69f59be6c!8m2!3d37.6332118!4d-122.4487806?hl=en" width="300" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
             <div class="contact-info">
@@ -1071,9 +1073,12 @@ form p label {
             <div class="contact-form">
                 <h3 class="main-heading"><span>Let's keep in touch</span></h3>
                 <div id="contact-status"></div>
-                <form action="#" id="contactform">
+               
+                //CONTACT FORM STARTS HERE
+
+                <form action="#" id="contactform" method="POST" data-netlify="true" >
                     <p>
-					<div class="form-group">
+                     <div class="form-group">
 						<input type="text" id="name" class="form-control" required>
 						<label class="form-control-placeholder" for="name">Your Name</label>
 					</div>
@@ -1090,6 +1095,8 @@ form p label {
                     </p>
                     <input type="submit" name="submit" value="Send your message" class="button transition">
                 </form>
+
+
                 <br><br><br><br>
             </div>
         </section><!-- /contact -->
