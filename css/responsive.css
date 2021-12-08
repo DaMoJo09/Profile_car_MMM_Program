@@ -5,7 +5,7 @@
     width: auto;
   }
   #container {
-    width: 300px;
+    width: 319px;
   }
 
   .video-container video {
@@ -13,24 +13,68 @@
   }
   .content h1 {
     font-size: 1.5rem;
+    color: aliceblue;
+    font-weight: 600;
   }
   .content h3 {
     font-size: 1rem;
+    color: aliceblue;
+    font-weight: 600;
+  }
+
+  #about {
+    height: auto;
   }
 
   #about p {
     font-size: 1.5rem;
   }
 
+  #logo h2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+
   #profile {
     display: flex;
     flex-direction: column;
-    width: 315px;
+    width: 320px;
   }
 
-  .photo-inner img {
-    height: 90px;
-    width: 90px;
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about h1 {
+    font-size: 1.5rem;
+    line-height: 18px;
+  }
+  .about h3 {
+    font-size: 17px;
+    line-height: 10px;
+  }
+  .about h4 {
+    font-size: 1rem;
+  }
+  .about p {
+    font-size: 1rem;
+    text-align: justify;
+    width: 45%;
+  }
+
+  .personal-info {
+    margin-top: auto;
+  }
+
+  .personal-info li {
+    font-size: 13px;
+  }
+
+  .menu {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .left-name h2 {
